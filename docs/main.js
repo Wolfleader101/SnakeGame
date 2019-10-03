@@ -1,3 +1,4 @@
+// minimalistic main.js file with the essential code that runs the game, does not actually have any functionality 
 const canvas = document.getElementById('canvas');
 const Context = ctx = canvas.getContext('2d');
 
@@ -24,6 +25,9 @@ var IntervalId = setInterval( function () {
     Apple.Draw();
     drawBorder();
 
-}, 100);
+}, 90);
+
+
+
 
 
